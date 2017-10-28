@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/browse_background"
-    tools:context="talosdev.clean.browse.BrowseActivity">
+    tools:context="talosdev.clean.browse.BrowseActivity"
+    android:transitionName="@string/browse_bg_transition">
 
     <TextView
         android:text="@string/browse"

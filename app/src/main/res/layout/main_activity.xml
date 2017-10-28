@@ -12,6 +12,7 @@
         android:id="@+id/browse"
         android:background="@color/browse_background"
         style="@style/main_section_background"
+        android:transitionName="@string/browse_bg_transition"
         >
 
         <TextView
@@ -27,6 +28,7 @@
         android:id="@+id/search"
         android:background="@color/search_background"
         style="@style/main_section_background"
+        android:transitionName="@string/search_bg_transition"
         >
 
         <TextView

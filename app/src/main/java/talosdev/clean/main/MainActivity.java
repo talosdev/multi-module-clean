@@ -3,6 +3,7 @@ package talosdev.clean.main;
 import android.app.ActivityOptions;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Pair;
 import android.view.View;
 import android.widget.TextView;
 
@@ -38,9 +39,11 @@ public class MainActivity extends AppCompatActivity {
 
     @OnClick(R.id.browse)
     public void onBrowseClick() {
-        ActivityOptions options = ActivityOptions
-                .makeSceneTransitionAnimation(this, browseTextView,
-                        getString(R.string.browse_title_transition));
+
+        ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(this,
+                Pair.create((View) browseTextView, getString(R.string.browse_title_transition)),
+                Pair.create(browseView, getString(R.string.browse_bg_transition)));
+
 
         startActivity(BrowseActivity.newIntent(this),
                 options.toBundle());
@@ -50,9 +53,10 @@ public class MainActivity extends AppCompatActivity {
 
     @OnClick(R.id.search)
     public void onSearchClick() {
-        ActivityOptions options = ActivityOptions
-                .makeSceneTransitionAnimation(this, searchTextView,
-                        getString(R.string.search_title_transition));
+        ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(this,
+                Pair.create((View) searchTextView, getString(R.string.search_title_transition)),
+                Pair.create(searchView, getString(R.string.search_bg_transition)));
+
 
         startActivity(SearchActivity.newIntent(this),
                 options.toBundle());

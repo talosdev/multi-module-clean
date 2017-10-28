@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/search_background"
+    android:transitionName="@string/search_bg_transition"
     tools:context="talosdev.clean.search.SearchActivity">
 
     <TextView
