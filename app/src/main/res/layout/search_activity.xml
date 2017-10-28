@@ -10,6 +10,7 @@
     tools:context="talosdev.clean.search.SearchActivity">
 
     <TextView
+        android:id="@+id/section_title"
         android:text="@string/search"
         style="@style/activity_title"
         android:transitionName="@string/search_title_transition"

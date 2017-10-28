@@ -10,6 +10,7 @@
     android:transitionName="@string/browse_bg_transition">
 
     <TextView
+        android:id="@+id/section_title"
         android:text="@string/browse"
         style="@style/activity_title"
         android:transitionName="@string/browse_title_transition"

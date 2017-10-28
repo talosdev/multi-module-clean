@@ -2,12 +2,11 @@ package talosdev.clean.browse;
 
 import android.content.Context;
 import android.content.Intent;
-import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 
 import talosdev.clean.R;
+import talosdev.clean.common.SectionBaseActivity;
 
-public class BrowseActivity extends AppCompatActivity {
+public class BrowseActivity extends SectionBaseActivity {
 
 
     public static Intent newIntent(Context context) {
@@ -16,9 +15,9 @@ public class BrowseActivity extends AppCompatActivity {
         return i;
     }
 
+
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.browse_activity);
+    protected int getLayoutResource() {
+        return R.layout.browse_activity;
     }
 }
