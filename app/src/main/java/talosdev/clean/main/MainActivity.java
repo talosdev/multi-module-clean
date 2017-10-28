@@ -44,7 +44,6 @@ public class MainActivity extends AppCompatActivity {
                 Pair.create((View) browseTextView, getString(R.string.browse_title_transition)),
                 Pair.create(browseView, getString(R.string.browse_bg_transition)));
 
-
         startActivity(BrowseActivity.newIntent(this),
                 options.toBundle());
 
