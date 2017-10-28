@@ -6,6 +6,8 @@
         <item name="colorPrimary">@android:color/black</item>
         <item name="colorPrimaryDark">@android:color/black</item>
         <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:windowContentTransitions">true</item>
     </style>
 
     <style name="main_section_background">

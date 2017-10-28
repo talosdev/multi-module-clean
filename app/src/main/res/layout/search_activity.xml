@@ -5,14 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/browse_background"
-    tools:context="talosdev.clean.browse.BrowseActivity">
+    android:background="@color/search_background"
+    tools:context="talosdev.clean.search.SearchActivity">
 
     <TextView
-        android:text="@string/browse"
+        android:text="@string/search"
         style="@style/activity_title"
-        android:transitionName="@string/browse_title_transition"
+        android:transitionName="@string/search_title_transition"
         />
-
 
 </LinearLayout>
