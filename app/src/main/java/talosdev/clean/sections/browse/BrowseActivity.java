@@ -1,10 +1,10 @@
-package talosdev.clean.browse;
+package talosdev.clean.sections.browse;
 
 import android.content.Context;
 import android.content.Intent;
 
 import talosdev.clean.R;
-import talosdev.clean.common.SectionBaseActivity;
+import talosdev.clean.sections.SectionBaseActivity;
 
 public class BrowseActivity extends SectionBaseActivity {
 

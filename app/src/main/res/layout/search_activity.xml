@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:background="@color/search_background"
     android:transitionName="@string/search_bg_transition"
-    tools:context="talosdev.clean.search.SearchActivity">
+    tools:context="talosdev.clean.sections.search.SearchActivity">
 
     <TextView
         android:id="@+id/section_title"

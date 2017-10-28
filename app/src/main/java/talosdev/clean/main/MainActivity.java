@@ -11,8 +11,8 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 import talosdev.clean.R;
-import talosdev.clean.browse.BrowseActivity;
-import talosdev.clean.search.SearchActivity;
+import talosdev.clean.sections.browse.BrowseActivity;
+import talosdev.clean.sections.search.SearchActivity;
 
 public class MainActivity extends AppCompatActivity {
 

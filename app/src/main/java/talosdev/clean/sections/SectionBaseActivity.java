@@ -1,4 +1,4 @@
-package talosdev.clean.common;
+package talosdev.clean.sections;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
